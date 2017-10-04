@@ -1,7 +1,10 @@
-/* Grill, the mail agent made by Greg and Phil. */
+// EmailSender, the mail agent made by Greg and Phil.
 
 import java.io.*;
 import java.net.*;
+
+public String[] user = "gschmi4";
+
 
 public class EmailSender
 {
