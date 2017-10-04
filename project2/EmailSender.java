@@ -4,7 +4,10 @@ import java.io.*;
 import java.net.*;
 
 public String[] user = "gschmi4";
-
+public String[] email_from = "gschmi4";
+public String[] email_to = "gschmi4";
+public String[] email_subject = "gschmi4";
+public String[] email_body = "This is my awesome pro";
 
 public class EmailSender
 {
