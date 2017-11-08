@@ -1,4 +1,4 @@
-# Project 1
+# Project 2
 
 ## Meta
 
@@ -10,11 +10,14 @@ ECE 333 Computer Networks I
 
 ## Description
 
-We decided to do the simple SMTP email sending program using Java. We set it up to send from `gschmi4@uic.edu` to `phorwi2@uic.edu`. We consolidated the parameters at the top as variables to make it easier to extend this to a more general application where the user provides those details.
+We decided to do the UDP Pinger. It was fairly simple. We designed the Client to use the next port in line as it's communication port (so if the server is on 5000, then the client is on 5001). The output for the client is based on the same format that the FreeBSD Unix `ping` utility uses.
 
 ## Usage
 
 ```
-$ javac EmailSender.java
-$ java EmailSender
+$ javac *.java
+$ java PingServer <port>
+$ java PingClient <host> <port>
 ```
+
+For testing on a local machine, use port=5000 and host=localhost.
